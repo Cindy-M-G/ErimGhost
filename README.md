@@ -75,3 +75,16 @@ graph TD
     ALB -->|Ruta en tiempo real| API[FastAPI Engine - Python 3.10]
     API -->|Algoritmo A* + Grafos| NX[NetworkX Graph Engine]
     API -->|Consola de Monitoreo| CW[AWS CloudWatch & Budgets]
+
+
+
+---
+
+### 2. Pegar la Declaración de Costos en tu `README.md`
+Pega esta sección exacta al final de tu `README.md`:
+
+```markdown
+## Declaración de Costos (AWS)
+
+* **Costo Estimado Mensual en Producción:** ~$8.00 USD / mes (AWS App Runner 0.25 vCPU / 0.5 GB RAM + CloudWatch).
+* **Costo Real Gastado durante el Evento:** $0.00 USD (Cubierto bajo AWS Free Tier / Créditos).
